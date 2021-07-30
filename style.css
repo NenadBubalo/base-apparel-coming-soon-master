@@ -1,0 +1,41 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./image/background-1837214_1920.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 70vw;
+    height: 79vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container__leftside {
+    width: 60%;
+    height: 100%;
+}
+
+.container__rightside {
+    width: 40%;
+    height: 100%;
+    background-image: url("image/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
