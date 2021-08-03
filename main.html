@@ -8,11 +8,27 @@
 <body>
     <div class="container">
         <div class="container__leftside">
-            <div class="container__leftside-logo"></div>
-            <div class="container__leftside-text"></div>
-            <div class="container__leftside-email"></div>
+            <div class="container__leftside-logo">
+                <img src="image/logo.svg" class="container__leftside-logo-logo">
+            </div>
+            <div class="container__leftside-text">
+                <h1 class="container__leftside-text-were">we're</h1>
+                <h1 class="container__leftside-text-comingsoon">coming<br>soon</h1>
+                <p class="container__leftside-text-p">
+                    Hello fellow shoppers! We're currently building our new fashion store.
+                    Add your email below to stay up-to-date with announcements and our launch deals.
+                </p>
+                <form class="container__leftside-text-form" action="" method="post">
+                    <input type="email" name="email" value="Email Address" class="container__leftside-text-form-email">
+                    <input type="submit" name="button" class="container__leftside-text-form-button" value="">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </form>
+            </div>
         </div>
         <div class="container__rightside"></div>
     </div>
+    <!--Ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
